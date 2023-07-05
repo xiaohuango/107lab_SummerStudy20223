@@ -1,0 +1,38 @@
+1. 创建版本库       
+$ mkdir file //创建文件夹   
+$ git init //初始化版本库  
+2.添加文件到版本库  
+$ git add file //添加文件  
+$ git commit -m "message" //提交说明信息 
+3.
+$ git status// 查看状态 
+$ git diff  (HEAD -- readme.txt)//查看修改  
+$ git log (--pretty=oneline) //显示提交记录  
+$ cat file  //查看文件内容
+$ git reflog//版本记录
+$ git reset HEAD file //撤销添加到暂存区 
+$ rm file   //删除没用文件
+$ git remote -v  //查看远程库信息  
+$ git branch //查看分支
+4.版本回退 
+$ git reset --hard HEAD^ //回退到上一个版本 
+$ git reset --hard version //回退到指定版本 
+5. 撤销修改
+$ git checkout -- file //撤销修改某个文件  
+6.远程仓库
+$ ssh-keygen -t rsa -C "youremail@example.com"  //生成SSH key
+$ git remote add origin ***ssh***  //添加远程仓库
+$ git push <name> master           //推送更新
+$ git remote rm <name>  //删除远程仓库
+$ git clone ***ssh***  //克隆远程仓库
+7.分支      
+$ git branch <name> //新建分支      
+$ git checkout <name>或者 $ git switch <name> //切换分支         
+$ git checkout -b <name>或者git switch -c <name> //新建并切换分支       
+$ git merge <name> // 合并分支          
+$ git branch -d <name> // 删除分支   
+$ git merge --no-ff -m "message" <name> //非快进合并,添加说明   
+$ git stash //保存当前工作状态   
+$ git stash pop //恢复之前保存的状态    
+$ git cherry-pick <version>  //拣选提交      
+$ git git branch -D <name>  //强制删除分支
