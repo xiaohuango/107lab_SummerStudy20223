@@ -1,0 +1,44 @@
+# 忽略日志文件
+yangfree/*.log
+
+# 忽略缓存文件
+yangfree/*.cache
+
+# 忽略临时文件
+yangfree/*.tmp
+
+# 忽略备份文件
+yangfree/*~
+
+# 忽略编译生成的文件
+yangfree/*.class
+yangfree/*.jar
+yangfree/*.war
+yangfree/*.ear
+
+# 忽略IDE和编辑器生成的文件和文件夹
+yangfree/.idea/
+yangfree/.vscode/
+yangfree/*.swp
+yangfree/*.swo
+yangfree/*.swn
+yangfree/*.bak
+yangfree/*.DS_Store
+yangfree/Thumbs.db
+
+# 忽略依赖管理工具生成的文件夹
+yangfree/node_modules/
+yangfree/vendor/
+
+# 忽略构建输出文件夹
+yangfree//build/
+yangfree//dist/
+yangfree//out/
+
+# 忽略生成的文档
+yangfree//docs/
+
+# 忽略配置文件中的敏感信息
+yangfree/config.ini
+
+
