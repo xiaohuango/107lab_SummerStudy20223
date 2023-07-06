@@ -8,7 +8,7 @@
 ## 相关资料
 
 1. 网站响应式布局：[百度百科](https://baike.baidu.com/item/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1)。
-2. 合理利用浏览器开发者模式：[](https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools)。
+2. 合理利用浏览器开发者模式：[开发者](https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools)。
 3. bootstrap入门建议查看官方API，  [中文网](https://www.bootcss.com/)  ,   [官网](https://getbootstrap.com/2.3.2/)     ,非常香，大家一定要好好学习，不仅仅限制于这次任务要用到的模块或功能！！！
 4. AOS，话不多说直接上官方实例     [AOS](https://michalsnik.github.io/aos/)。
 5. 轮播图源码可以直接用之前写过的，或者其他效果更好的，不做要求。
