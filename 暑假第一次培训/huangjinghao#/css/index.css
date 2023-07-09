@@ -1,0 +1,39 @@
+#nap{
+    height: 102px;
+}
+
+.readme{
+    
+    color: #b6124a;
+    font-size: 16px;
+    font-weight: 600;
+}
+.keyan{
+    font-style: italic;
+    font-family: Georgia;
+    color: #999;
+  font-size: 17.5px;
+}
+.top1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+.footer1{
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    overflow: hidden;
+}
+.footer2{
+    background: #222;
+    padding: 15px 0;
+    color: #aaa;
+    font-size: 12px;
+}
+.bgc:hover {
+    background-color: #fff;
+}
+
+
