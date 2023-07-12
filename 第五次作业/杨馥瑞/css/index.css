@@ -1,9 +1,9 @@
 
-    body {
+.container-fluid {
      background-image: url("images/R.jpg");
      background-repeat: no-repeat;
      background-size: cover;
-         }
+        }
     /* 自定义导航栏样式 */
     .navbar-nav .nav-link {
       margin-right: 60px; /* 调整导航项之间的右侧间距 */
